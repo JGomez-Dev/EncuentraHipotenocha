@@ -1,0 +1,84 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.encuentrahipotenocha.MainActivity">
+    <item
+        android:id="@+id/intrucciones"
+        android:orderInCategory="100"
+        android:title="@string/intrucciones"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/comenzarJuego"
+        android:orderInCategory="100"
+        android:title="@string/comenzarJuego"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/configuraJuego"
+        android:orderInCategory="100"
+        android:title="@string/configuraJuego"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/principiante"
+                android:orderInCategory="100"
+                android:title="@string/principiante"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/amateur"
+                android:orderInCategory="100"
+                android:title="@string/amateur"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/avanzado"
+                android:orderInCategory="100"
+                android:title="@string/avanzado"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Setting"
+        android:orderInCategory="100"
+        android:title="@string/Setting"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/musica"
+                android:icon="@drawable/musica"
+                android:title="@string/menu_opcion"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/nomusica"
+                android:icon="@drawable/nomusica"
+                android:title="@string/menu_opcion"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_opcion"
+        android:icon="@drawable/bandera"
+        android:title="@string/menu_opcion"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/azul"
+                android:icon="@drawable/banderaazul"
+                android:title="@string/menu_opcion"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/morada"
+                android:icon="@drawable/banderamorada"
+                android:title="@string/menu_opcion"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/naranja"
+                android:icon="@drawable/banderanaranja"
+                android:title="@string/menu_opcion"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/verde"
+                android:icon="@drawable/banderaverde"
+                android:title="@string/menu_opcion"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>

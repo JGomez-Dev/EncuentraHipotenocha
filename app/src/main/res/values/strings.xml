@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stellarium</string>
+    <string name="intrucciones">Intrucciones</string>
+    <string name="comenzarJuego">Comenzar Juego!</string>
+    <string name="configuraJuego">Configura el Juego</string>
+    <string name="principiante">Principiante</string>
+    <string name="amateur">Amateur</string>
+    <string name="avanzado">Avanzado</string>
+    <string name="menu_opcion">Opcion</string>
+    <string name="Setting">Setting</string>
+
+
+</resources>
